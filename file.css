@@ -1,0 +1,150 @@
+body {
+    padding: 2px;
+    margin: 2px;
+    background-color: antiquewhite;
+}
+
+header {
+    width: 100%;
+    background-color: darkgray;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0px;
+    border-radius: 50px;
+    border: 5px solid black;
+}
+
+.ourcurses {
+    width: 100%;
+    background-color: darkgray;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 25px;
+    border-radius: 50px;
+    border: 5px solid black;
+
+}
+
+aside img {
+    width: 800px;
+    height: 100%;
+    border-radius: 10%;
+}
+.over {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+    padding: 0px;
+    background-color: darkgray;
+    color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0px;
+    border-radius: 30px;
+}
+
+.st {
+    padding: 25px;
+    width: 120%;
+    background-color: aquamarine;
+    border-radius: 50px;
+}
+
+div {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+}
+main, aside {
+    width: 40%;
+    float: left;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+section, nav {
+    width: 50%;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.lp {
+    width: 100%;
+    text-align: center;
+    background-color: aliceblue;
+    color: aqua;
+    border-radius: 50px; 
+    margin: 30px;
+    padding: 30px;
+    font-size: 200%;
+}
+
+button {
+    background-color: rgb(53, 164, 127);
+    color: #ffffff; /* белый текст */
+    border: none; /* без рамки */
+    padding: 30px 30px; /* отступы */
+    font-size: 16px; /* размер текста */
+    cursor: pointer; /* указатель мыши */
+    text-align: center;
+    width: 100%;
+    border-radius: 30px;
+  }
+  
+  button:hover {
+    background-color: #96eb5d; /* изменение фона при наведении */
+    border: 5px solid #c300ff;
+    padding: 25px 25px; /* отступы */
+    font-size: 16px; /* размер текста */
+    cursor: pointer; /* указатель мыши */
+    text-align: center;
+    width: 100%;
+    border-radius: 30px;
+  }
+
+.sec{
+    width: 23%;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+
+    background-color: rgb(0, 0, 0);
+    margin: 1%;
+    color: azure;
+    border-radius: 40px;
+
+}
+
+.butt {
+    background-color: rgb(53, 164, 127);
+    color: #ffffff; /* белый текст */
+    border: none; /* без рамки */
+    padding: 30px 30px; /* отступы */
+    font-size: 16px; /* размер текста */
+    cursor: pointer; /* указатель мыши */
+    text-align: center;
+    width: 100%;
+    border-radius: 30px;
+  }
+  
+  button:hover {
+    background-color: #277a39; /* изменение фона при наведении */
+    border: 5px solid #ff0000;
+    padding: 25px 25px; /* отступы */
+    font-size: 16px; /* размер текста */
+    cursor: pointer; /* указатель мыши */
+    text-align: center;
+    width: 100%;
+    border-radius: 30px;
+  }
