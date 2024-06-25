@@ -1,11 +1,11 @@
 body {
     padding: 2px;
     margin: 2px;
-    background-color: antiquewhite;
+    background-color: #f5c5b3;
 }
 
 header {
-    width: 100%;
+    width: 99%;
     background-color: darkgray;
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
@@ -15,21 +15,20 @@ header {
     border: 5px solid black;
 }
 
-.ourcurses {
-    width: 100%;
+
+.ourcurs {
+    width: 97%;
     background-color: darkgray;
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    padding: 25px;
+    padding: 20px;
     border-radius: 50px;
     border: 5px solid black;
-
 }
 
 aside img {
-    width: 800px;
-    height: 100%;
+    width: 90%;
     border-radius: 10%;
 }
 .over {
@@ -52,9 +51,20 @@ footer {
 
 .st {
     padding: 25px;
-    width: 120%;
+    width: 100%;
+    height: 100%;
     background-color: aquamarine;
     border-radius: 50px;
+}
+
+.sts {
+    padding: 25px;
+    width: 97%;
+    height: 100%;
+    background-color: aquamarine;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    font-size: large;
 }
 
 div {
@@ -112,18 +122,31 @@ button {
     border-radius: 30px;
   }
 
-.sec{
+  .sec{
     width: 23%;
+    height: 40%;
     float: left;
     padding: 0px;
     margin: 0px;
     text-align: center;
 
+
     background-color: rgb(0, 0, 0);
     margin: 1%;
     color: azure;
     border-radius: 40px;
+    display: flex; /* Add flexbox to the section */
+    flex-direction: column; /* Stack elements vertically */
+}
 
+.sec img {
+    height: 200px;
+    width: 100%;
+}
+
+.button-container {
+    margin-top: auto; /* Push the button container to the bottom */
+    text-align: center;
 }
 
 .butt {
@@ -148,3 +171,44 @@ button {
     width: 100%;
     border-radius: 30px;
   }
+
+.phy {
+    border-radius: 25px;
+    background-color: aquamarine;
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+    margin: 10px;
+}
+
+.ph {
+    margin: 5%;
+    padding: 5%;
+    background-color: aquamarine;
+    border-radius: 25px;
+}
+
+.joy {
+    color: black;
+    background-color:lightskyblue;
+    border-radius: 30px;
+    font-size: large;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    width: 96%
+}
+
+.bag {
+    background-color: aquamarine;
+    border-radius: 25px;
+    width: 98%;
+    height: auto;
+    margin: 1%;
+}
+
+.prt {
+    width: 100%;
+    float: left;
+}
